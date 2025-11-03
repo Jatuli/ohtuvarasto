@@ -52,7 +52,7 @@ class TestVarasto(unittest.TestCase):
 
     
     
-    xdef test_lisays_lisaa_pienentaa_vapaata_tilaa(self):
+    def test_lisays_lisaa_pienentaa_vapaata_tilaa(self):
         self.varasto.lisaa_varastoon(8)
 
         # vapaata tilaa pitäisi vielä olla tilavuus-lisättävä määrä eli 2
@@ -65,7 +65,7 @@ class TestVarasto(unittest.TestCase):
 
         self.assertAlmostEqual(saatu_maara, 2)
 
-    xdef test_ottaminen_lisaa_tilaa(self):
+    def test_ottaminen_lisaa_tilaa(self):
         self.varasto.lisaa_varastoon(8)
 
         self.varasto.ota_varastosta(2)
