@@ -48,7 +48,7 @@ def otto_virheet(mehu, olut):
     saatiin = olut.ota_varastosta(1000.0)
     print(f"Otetaan 1000 olutvarastosta, saatiin {saatiin}, Olutvarasto:{olut}")
     saatiin = mehu.ota_varastosta(-32.9)
-    print(f"Otetaan -32.9 mehuvarastosta,saatiin {saatiin}, Mehuvarasto:{mehu}")
+    print(f"Otetaan -32.9 mehuvarastosta,saatiin {saatiin}, MehuvarastoXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:{mehu}")
 
 if __name__ == "__main__":
     main()
